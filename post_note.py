@@ -101,7 +101,7 @@ def run(playwright: Playwright) -> None:
     page.set_default_timeout(15000)
     
     #-----------login---------
-    if not login(page, "ryou8811@gmail.com", "majika19940909"):
+    if not login(page, "email", "pass"):
         print("ログインに失敗しました")
         return
     
